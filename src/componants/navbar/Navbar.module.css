@@ -1,0 +1,15 @@
+
+  nav{
+    background-color: #2C3E50;
+  height: 100px;
+  font-size: 20px;
+  
+}
+
+nav ul li {
+    padding: 20px;
+}
+.active{
+  background-color: #1ABC9C;
+  border-radius: var(--bs-border-radius-lg);
+}

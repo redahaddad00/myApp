@@ -1,0 +1,60 @@
+.img{
+    width: 100%;
+    margin: 10px;
+    margin-top: 45px;
+    margin-bottom: 40px;
+    position: relative;
+}
+.img:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+    cursor: cell;
+   
+}
+
+
+.portfolio{
+    padding: 3px;
+}
+.title{
+  padding-top: 10rem;
+  display: flex;
+  justify-content: center;
+  
+ 
+}
+ h2{
+ color: #2C3E50;
+}
+ i{
+
+    position: relative;
+}
+
+ i::after{
+    content: '';
+    position: absolute;
+    background-color: #2C3E50;
+    width: 5rem;
+    height: 4px;
+    top: 40%;
+    left: 50px;
+    
+}
+
+h2{
+    position: relative;
+  
+
+}
+h2::before{
+    content: '';
+    position: absolute;
+    top: 150%;
+    left: 70px;
+    background-color: #2C3E50;
+    width: 5rem;
+    height: 4px;
+}
+
+

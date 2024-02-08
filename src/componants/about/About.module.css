@@ -1,0 +1,33 @@
+.header{
+    background-color:  #1ABC9C;
+    padding: 15rem;
+   line-height: 27px;
+}
+
+.header i{
+    position: relative;
+}
+.header i::after{
+
+    content: '';
+    position: absolute;
+    top: 40%;
+    left: 50px;
+    background-color: whitesmoke;
+    width: 5rem;
+    height: 4px;
+}
+.header h2{
+    position: relative;
+    color: whitesmoke;
+}
+.header h2::before{
+    content: '';
+    position: absolute;
+    top: 155%;
+    left: 25rem;
+    background-color: whitesmoke;
+    width: 5rem;
+    height: 4px;
+
+}

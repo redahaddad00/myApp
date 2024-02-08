@@ -1,0 +1,14 @@
+section{
+    background-color: #2C3E50;
+    color: whitesmoke;
+    padding: 50px;
+    text-align: center;
+    height: 100%;
+}
+
+footer{
+    background-color: #19242E;
+    padding: 20px;
+    text-align: center;
+    color: whitesmoke;
+}
